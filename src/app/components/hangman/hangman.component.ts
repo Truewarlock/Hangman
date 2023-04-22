@@ -14,4 +14,9 @@ export class HangmanComponent implements OnInit {
 
   numberOfIncorrectGuesses:number=3;
 
+  play(){
+    let audio = new Audio('assets/sounds/1.mp3');
+    audio.play();
+  }
+
 }
