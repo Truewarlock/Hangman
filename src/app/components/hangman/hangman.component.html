@@ -1,4 +1,7 @@
 
-<img [appHangman]="numberOfIncorrectGuesses" width="200px" height="200px">
-<input [(ngModel)]="numberOfIncorrectGuesses">
-<button (click)=" play()"></button>
+<img [appHangman]="gameState.numberOfIncorrectGuesses" width="200px" height="200px">
+
+<input [(ngModel)]="letter">
+
+<button (click)="gameState.guessALetter(letter)"></button>
+

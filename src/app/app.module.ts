@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { HangmanDirective } from './directives/hangman.directive';
 import { HangmanComponent } from './components/hangman/hangman.component';
 import { FormsModule } from '@angular/forms';
+import { InfoComponent } from './components/info/info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HangmanDirective,
     HangmanComponent,
+    InfoComponent,
 
   ],
   imports: [

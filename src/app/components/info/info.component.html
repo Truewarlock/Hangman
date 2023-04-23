@@ -1,0 +1,6 @@
+<div style="display:flex;gap:5px;">
+  <div *ngFor="let letter of gameState.selectedWord">
+    <div *ngIf="letter[1]">{{letter[0]}}</div>
+    <div *ngIf="letter[1]==false">_</div>
+  </div>
+</div>
